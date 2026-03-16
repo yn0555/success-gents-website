@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Success Gents</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">Success Gents</div>
+
+      <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="shop.html">Shop</a>
+        <a href="#partner">Partner</a>
+        <a href="#contact">Contact</a>
+        <a href="login.html">Login</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+      <img src="logo.png" class="hero-logo" />
+
+      <h1>Success Gents</h1>
+      <p>Crafted for Your Journey</p>
+
+      <a href="shop.html" class="shop-btn">Shop Now</a>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+      <div class="about-container">
+        <div class="about-header">
+          <h2>Our Story</h2>
+          <p>Discover the journey and vision behind Success Gents.</p>
+        </div>
+
+        <div class="about-slider">
+          <div class="about-track">
+            <!-- card 1 -->
+            <div class="about-card">
+              <img src="about1.jpg" />
+              <div class="card-text">
+                <h3>Our Beginning</h3>
+                <p>
+                  From a small retail shop to a trusted travel accessories
+                  store.
+                </p>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="about-card">
+              <img src="about2.jpg" />
+              <div class="card-text">
+                <h3>Quality Products</h3>
+                <p>
+                  We curate luggage, bags, wallets and hats designed for modern
+                  lifestyles.
+                </p>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="about-card">
+              <img src="about3.jpg" />
+              <div class="card-text">
+                <h3>Growing Together</h3>
+                <p>
+                  We welcome suppliers and partners to grow together with our
+                  brand.
+                </p>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="about-card">
+              <img src="about4.jpg" />
+              <div class="card-text">
+                <h3>Customer Experience</h3>
+                <p>Discover quality travel essentials in our store.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+
+    <section id="products" class="section">
+      <div class="glass-container">
+        <h2>Our Products</h2>
+
+        <div class="products">
+          <div class="card">
+            <h3>Luggage</h3>
+            <p>
+              Durable and stylish luggage designed for every type of journey.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Bags</h3>
+            <p>
+              From casual to travel-ready bags, combining function and style.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Wallets</h3>
+            <p>Simple, practical and timeless wallet designs for daily use.</p>
+          </div>
+
+          <div class="card">
+            <h3>Hats</h3>
+            <p>
+              Modern and classic hat collections for lifestyle and fashion
+              needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNER -->
+
+    <section id="partner" class="section">
+      <div class="glass-container">
+        <h2>Partner With Us</h2>
+
+        <p>
+          We welcome brands and suppliers who are interested in placing their
+          products in our store. Share your details with us and our team will
+          reach out via WhatsApp for further discussion.
+        </p>
+
+        <form action="https://formspree.io/f/xnjgpqqj" method="POST">
+          <input
+            type="text"
+            name="company"
+            placeholder="Company Name"
+            required
+          />
+
+          <input
+            type="text"
+            name="contact"
+            placeholder="Contact Person"
+            required
+          />
+
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+
+          <input type="email" name="email" placeholder="Email Address" />
+
+          <textarea
+            name="product"
+            placeholder="Tell us about your products"
+          ></textarea>
+          <button type="submit">Submit</button>
+          <button type="button" id="clearForm" onclick="this.form.reset()">
+            Clear
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- CONTACT -->
+
+    <section id="contact" class="section">
+      <div class="glass-container">
+        <h2>Contact Us</h2>
+
+        <div class="contact-grid">
+          <div class="contact-card whatsapp">
+            <h3>WhatsApp</h3>
+            <p>012-2121721 <b>(Alex Tan)</b></p>
+          </div>
+
+          <div class="contact-card email">
+            <h3>Email</h3>
+            <p>Fionachow_sookyee@yahoo.com</p>
+          </div>
+
+          <div class="contact-card address">
+            <h3>Address</h3>
+            <p>
+              F2.09, Carefour Jalan Metro Perdana<br />
+              Batu 7 Off Jalan Kepong<br />
+              Kepong Entrepreneur Park<br />
+              52100 Kuala Lumpur
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
